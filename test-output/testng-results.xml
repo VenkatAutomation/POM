@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-01T16:59:30 IST" name="Default suite" finished-at="2022-06-01T16:59:52 IST" duration-ms="21809">
+    <groups>
+    </groups>
+    <test started-at="2022-06-01T16:59:30 IST" name="Default test" finished-at="2022-06-01T16:59:52 IST" duration-ms="21809">
+      <class name="HRM.Testcases.AddEmployeeTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:HRM.Testcases.AddEmployeeTest@5b03b9fe]" started-at="2022-06-01T16:59:30 IST" name="launchApp" finished-at="2022-06-01T16:59:39 IST" duration-ms="9574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:HRM.Testcases.AddEmployeeTest@5b03b9fe]" started-at="2022-06-01T16:59:39 IST" name="login" finished-at="2022-06-01T16:59:43 IST" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyAddEmp()[pri:0, instance:HRM.Testcases.AddEmployeeTest@5b03b9fe]" started-at="2022-06-01T16:59:43 IST" name="verifyAddEmp" finished-at="2022-06-01T16:59:50 IST" duration-ms="6683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddEmp -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:HRM.Testcases.AddEmployeeTest@5b03b9fe]" started-at="2022-06-01T16:59:50 IST" name="logout" finished-at="2022-06-01T16:59:51 IST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:HRM.Testcases.AddEmployeeTest@5b03b9fe]" started-at="2022-06-01T16:59:51 IST" name="closeApp" finished-at="2022-06-01T16:59:52 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- HRM.Testcases.AddEmployeeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
