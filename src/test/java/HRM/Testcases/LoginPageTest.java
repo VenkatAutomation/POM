@@ -9,25 +9,25 @@ import HRM.Pages1.LoginPage;
 
 public class LoginPageTest extends TestBase
 {
- 
+
 	LoginPage lp;
-	
+
 	@BeforeMethod
 	public void launchApp() throws Throwable
 	{
 		lp = new LoginPage();
-		
+
 		invokeBrowser();
-		
+
 	}
-	
+
 	@Test
 	public void pageTitleVerification()
 	{
 		//lp = new LoginPage();
-	lp.validatePageTitle();
+		lp.validatePageTitle();
 	}
-	
+
 	@Test
 	public void loginTest()
 	{
@@ -35,16 +35,16 @@ public class LoginPageTest extends TestBase
 		lp.Login(prop.getProperty("username"),prop.getProperty("password"));
 		lp.verifyLogin();
 	}
-	
+
 	@Test
 	public void loginPageVerificationTest()
 	{
 		//lp = new LoginPage();
 		lp.verifyLoginPage();
 	}
-	
-	
-	
+
+
+
 	@AfterMethod
 	public void closeApp()
 	{
